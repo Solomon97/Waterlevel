@@ -19,8 +19,8 @@ mg = [(1400-d[2])/1000 for d in g]
 plt.figure()
 ax = plt.subplot(1, 1, 1)
 
-ax.plot(dtn, mn, 'r.:', alpha = 0.3)
-ax.plot(dtg, mg, 'b.:', alpha = 0.3)
+ax.plot(dtn, mn, 'r.:', alpha = 0.3, lable = 'NOAA')
+ax.plot(dtg, mg, 'b.:', alpha = 0.3, label = 'GROG')
 
 
 ax.set_title('who cares')
